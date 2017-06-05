@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B23675CE1EE5FB17007A239F /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = B23675CD1EE5FB17007A239F /* AppIcon.appiconset */; };
+		B2D5C4301EBD793B006B788F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D5C42F1EBD793B006B788F /* AppDelegate.m */; };
+		B2D5C4331EBD793B006B788F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D5C4321EBD793B006B788F /* main.m */; };
+		B2D5C4361EBD793B006B788F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D5C4351EBD793B006B788F /* ViewController.m */; };
+		B2D5C4381EBD793B006B788F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D5C4371EBD793B006B788F /* Assets.xcassets */; };
+		B2D5C43B1EBD793B006B788F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D5C4391EBD793B006B788F /* Main.storyboard */; };
+		B2D5C4461EBD793B006B788F /* NTFSWriteEnablerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D5C4451EBD793B006B788F /* NTFSWriteEnablerTests.m */; };
+		B2D5C4511EBD793B006B788F /* NTFSWriteEnablerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D5C4501EBD793B006B788F /* NTFSWriteEnablerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2D5C4421EBD793B006B788F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2D5C4231EBD793B006B788F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2D5C42A1EBD793B006B788F;
+			remoteInfo = NTFSWriteEnabler;
+		};
+		B2D5C44D1EBD793B006B788F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2D5C4231EBD793B006B788F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2D5C42A1EBD793B006B788F;
+			remoteInfo = NTFSWriteEnabler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B23675CD1EE5FB17007A239F /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
+		B2D5C42B1EBD793B006B788F /* NTFSWriteEnabler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTFSWriteEnabler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D5C42E1EBD793B006B788F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2D5C42F1EBD793B006B788F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2D5C4321EBD793B006B788F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2D5C4341EBD793B006B788F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2D5C4351EBD793B006B788F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B2D5C4371EBD793B006B788F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2D5C43A1EBD793B006B788F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2D5C43C1EBD793B006B788F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2D5C4411EBD793B006B788F /* NTFSWriteEnablerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTFSWriteEnablerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D5C4451EBD793B006B788F /* NTFSWriteEnablerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTFSWriteEnablerTests.m; sourceTree = "<group>"; };
+		B2D5C4471EBD793B006B788F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2D5C44C1EBD793B006B788F /* NTFSWriteEnablerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTFSWriteEnablerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D5C4501EBD793B006B788F /* NTFSWriteEnablerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTFSWriteEnablerUITests.m; sourceTree = "<group>"; };
+		B2D5C4521EBD793B006B788F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2D5C4281EBD793B006B788F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D5C43E1EBD793B006B788F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D5C4491EBD793B006B788F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2D5C4221EBD793B006B788F = {
+			isa = PBXGroup;
+			children = (
+				B2D5C42D1EBD793B006B788F /* NTFSWriteEnabler */,
+				B2D5C4441EBD793B006B788F /* NTFSWriteEnablerTests */,
+				B2D5C44F1EBD793B006B788F /* NTFSWriteEnablerUITests */,
+				B2D5C42C1EBD793B006B788F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2D5C42C1EBD793B006B788F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2D5C42B1EBD793B006B788F /* NTFSWriteEnabler.app */,
+				B2D5C4411EBD793B006B788F /* NTFSWriteEnablerTests.xctest */,
+				B2D5C44C1EBD793B006B788F /* NTFSWriteEnablerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2D5C42D1EBD793B006B788F /* NTFSWriteEnabler */ = {
+			isa = PBXGroup;
+			children = (
+				B2D5C42E1EBD793B006B788F /* AppDelegate.h */,
+				B2D5C42F1EBD793B006B788F /* AppDelegate.m */,
+				B2D5C4341EBD793B006B788F /* ViewController.h */,
+				B2D5C4351EBD793B006B788F /* ViewController.m */,
+				B2D5C4371EBD793B006B788F /* Assets.xcassets */,
+				B23675CD1EE5FB17007A239F /* AppIcon.appiconset */,
+				B2D5C4391EBD793B006B788F /* Main.storyboard */,
+				B2D5C43C1EBD793B006B788F /* Info.plist */,
+				B2D5C4311EBD793B006B788F /* Supporting Files */,
+			);
+			path = NTFSWriteEnabler;
+			sourceTree = "<group>";
+		};
+		B2D5C4311EBD793B006B788F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2D5C4321EBD793B006B788F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2D5C4441EBD793B006B788F /* NTFSWriteEnablerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2D5C4451EBD793B006B788F /* NTFSWriteEnablerTests.m */,
+				B2D5C4471EBD793B006B788F /* Info.plist */,
+			);
+			path = NTFSWriteEnablerTests;
+			sourceTree = "<group>";
+		};
+		B2D5C44F1EBD793B006B788F /* NTFSWriteEnablerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2D5C4501EBD793B006B788F /* NTFSWriteEnablerUITests.m */,
+				B2D5C4521EBD793B006B788F /* Info.plist */,
+			);
+			path = NTFSWriteEnablerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2D5C42A1EBD793B006B788F /* NTFSWriteEnabler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2D5C4551EBD793B006B788F /* Build configuration list for PBXNativeTarget "NTFSWriteEnabler" */;
+			buildPhases = (
+				B2D5C4271EBD793B006B788F /* Sources */,
+				B2D5C4281EBD793B006B788F /* Frameworks */,
+				B2D5C4291EBD793B006B788F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTFSWriteEnabler;
+			productName = NTFSWriteEnabler;
+			productReference = B2D5C42B1EBD793B006B788F /* NTFSWriteEnabler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2D5C4401EBD793B006B788F /* NTFSWriteEnablerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2D5C4581EBD793B006B788F /* Build configuration list for PBXNativeTarget "NTFSWriteEnablerTests" */;
+			buildPhases = (
+				B2D5C43D1EBD793B006B788F /* Sources */,
+				B2D5C43E1EBD793B006B788F /* Frameworks */,
+				B2D5C43F1EBD793B006B788F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2D5C4431EBD793B006B788F /* PBXTargetDependency */,
+			);
+			name = NTFSWriteEnablerTests;
+			productName = NTFSWriteEnablerTests;
+			productReference = B2D5C4411EBD793B006B788F /* NTFSWriteEnablerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2D5C44B1EBD793B006B788F /* NTFSWriteEnablerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2D5C45B1EBD793B006B788F /* Build configuration list for PBXNativeTarget "NTFSWriteEnablerUITests" */;
+			buildPhases = (
+				B2D5C4481EBD793B006B788F /* Sources */,
+				B2D5C4491EBD793B006B788F /* Frameworks */,
+				B2D5C44A1EBD793B006B788F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2D5C44E1EBD793B006B788F /* PBXTargetDependency */,
+			);
+			name = NTFSWriteEnablerUITests;
+			productName = NTFSWriteEnablerUITests;
+			productReference = B2D5C44C1EBD793B006B788F /* NTFSWriteEnablerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2D5C4231EBD793B006B788F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alwin Mathew";
+				TargetAttributes = {
+					B2D5C42A1EBD793B006B788F = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = NSXFX2P39V;
+						ProvisioningStyle = Automatic;
+					};
+					B2D5C4401EBD793B006B788F = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = NSXFX2P39V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B2D5C42A1EBD793B006B788F;
+					};
+					B2D5C44B1EBD793B006B788F = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = NSXFX2P39V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B2D5C42A1EBD793B006B788F;
+					};
+				};
+			};
+			buildConfigurationList = B2D5C4261EBD793B006B788F /* Build configuration list for PBXProject "NTFSWriteEnabler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2D5C4221EBD793B006B788F;
+			productRefGroup = B2D5C42C1EBD793B006B788F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2D5C42A1EBD793B006B788F /* NTFSWriteEnabler */,
+				B2D5C4401EBD793B006B788F /* NTFSWriteEnablerTests */,
+				B2D5C44B1EBD793B006B788F /* NTFSWriteEnablerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2D5C4291EBD793B006B788F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D5C4381EBD793B006B788F /* Assets.xcassets in Resources */,
+				B23675CE1EE5FB17007A239F /* AppIcon.appiconset in Resources */,
+				B2D5C43B1EBD793B006B788F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D5C43F1EBD793B006B788F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D5C44A1EBD793B006B788F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2D5C4271EBD793B006B788F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D5C4361EBD793B006B788F /* ViewController.m in Sources */,
+				B2D5C4331EBD793B006B788F /* main.m in Sources */,
+				B2D5C4301EBD793B006B788F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D5C43D1EBD793B006B788F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D5C4461EBD793B006B788F /* NTFSWriteEnablerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D5C4481EBD793B006B788F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D5C4511EBD793B006B788F /* NTFSWriteEnablerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2D5C4431EBD793B006B788F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2D5C42A1EBD793B006B788F /* NTFSWriteEnabler */;
+			targetProxy = B2D5C4421EBD793B006B788F /* PBXContainerItemProxy */;
+		};
+		B2D5C44E1EBD793B006B788F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2D5C42A1EBD793B006B788F /* NTFSWriteEnabler */;
+			targetProxy = B2D5C44D1EBD793B006B788F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2D5C4391EBD793B006B788F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2D5C43A1EBD793B006B788F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2D5C4531EBD793B006B788F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B2D5C4541EBD793B006B788F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B2D5C4561EBD793B006B788F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NSXFX2P39V;
+				INFOPLIST_FILE = NTFSWriteEnabler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alwinm8.NTFSWriteEnabler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		B2D5C4571EBD793B006B788F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NSXFX2P39V;
+				INFOPLIST_FILE = NTFSWriteEnabler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alwinm8.NTFSWriteEnabler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		B2D5C4591EBD793B006B788F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NSXFX2P39V;
+				INFOPLIST_FILE = NTFSWriteEnablerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alwinm8.NTFSWriteEnablerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTFSWriteEnabler.app/Contents/MacOS/NTFSWriteEnabler";
+			};
+			name = Debug;
+		};
+		B2D5C45A1EBD793B006B788F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NSXFX2P39V;
+				INFOPLIST_FILE = NTFSWriteEnablerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alwinm8.NTFSWriteEnablerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTFSWriteEnabler.app/Contents/MacOS/NTFSWriteEnabler";
+			};
+			name = Release;
+		};
+		B2D5C45C1EBD793B006B788F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NSXFX2P39V;
+				INFOPLIST_FILE = NTFSWriteEnablerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alwinm8.NTFSWriteEnablerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NTFSWriteEnabler;
+			};
+			name = Debug;
+		};
+		B2D5C45D1EBD793B006B788F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NSXFX2P39V;
+				INFOPLIST_FILE = NTFSWriteEnablerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alwinm8.NTFSWriteEnablerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NTFSWriteEnabler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2D5C4261EBD793B006B788F /* Build configuration list for PBXProject "NTFSWriteEnabler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D5C4531EBD793B006B788F /* Debug */,
+				B2D5C4541EBD793B006B788F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2D5C4551EBD793B006B788F /* Build configuration list for PBXNativeTarget "NTFSWriteEnabler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D5C4561EBD793B006B788F /* Debug */,
+				B2D5C4571EBD793B006B788F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2D5C4581EBD793B006B788F /* Build configuration list for PBXNativeTarget "NTFSWriteEnablerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D5C4591EBD793B006B788F /* Debug */,
+				B2D5C45A1EBD793B006B788F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2D5C45B1EBD793B006B788F /* Build configuration list for PBXNativeTarget "NTFSWriteEnablerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D5C45C1EBD793B006B788F /* Debug */,
+				B2D5C45D1EBD793B006B788F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2D5C4231EBD793B006B788F /* Project object */;
+}
