@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B23675CE1EE5FB17007A239F /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = B23675CD1EE5FB17007A239F /* AppIcon.appiconset */; };
+		B2D458151EE602B100F8B9EB /* NTFSWriteEnabler.zip in Resources */ = {isa = PBXBuildFile; fileRef = B2D458141EE602B100F8B9EB /* NTFSWriteEnabler.zip */; };
 		B2D5C4301EBD793B006B788F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D5C42F1EBD793B006B788F /* AppDelegate.m */; };
 		B2D5C4331EBD793B006B788F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D5C4321EBD793B006B788F /* main.m */; };
 		B2D5C4361EBD793B006B788F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D5C4351EBD793B006B788F /* ViewController.m */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		B23675CD1EE5FB17007A239F /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
+		B2D458141EE602B100F8B9EB /* NTFSWriteEnabler.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = NTFSWriteEnabler.zip; sourceTree = "<group>"; };
 		B2D5C42B1EBD793B006B788F /* NTFSWriteEnabler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTFSWriteEnabler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D5C42E1EBD793B006B788F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B2D5C42F1EBD793B006B788F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		B2D5C42D1EBD793B006B788F /* NTFSWriteEnabler */ = {
 			isa = PBXGroup;
 			children = (
+				B2D458141EE602B100F8B9EB /* NTFSWriteEnabler.zip */,
 				B2D5C42E1EBD793B006B788F /* AppDelegate.h */,
 				B2D5C42F1EBD793B006B788F /* AppDelegate.m */,
 				B2D5C4341EBD793B006B788F /* ViewController.h */,
@@ -249,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2D458151EE602B100F8B9EB /* NTFSWriteEnabler.zip in Resources */,
 				B2D5C4381EBD793B006B788F /* Assets.xcassets in Resources */,
 				B23675CE1EE5FB17007A239F /* AppIcon.appiconset in Resources */,
 				B2D5C43B1EBD793B006B788F /* Main.storyboard in Resources */,
